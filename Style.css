@@ -1,0 +1,74 @@
+body {
+    padding: 1.5rem;
+    background-color: hsl(217, 19%, 24%);
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    padding: .5rem;
+    background-color: hsl(217, 19%, 38%);
+    border-radius: 1rem;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+    margin-top: calc(50vh - 15rem);
+    margin-bottom: auto;
+    padding-bottom: 3rem;
+}
+
+.quoteNumber p {
+    color: hsl(150, 100%, 66%);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.quote h1 {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.newQuote {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(150, 100%, 66%);
+    margin-left: Auto;
+    margin-right: Auto;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    left: 152px;
+    outline: none;
+    border: none;
+}
+
+.newQuote img {
+    margin-top: 4px;
+}
+
+.design {
+    display: flex;
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    align-content: center;
+    justify-content: center;
+}
+
+hr {
+    width: 100px;
+    border: none;
+    border-bottom: .3px solid hsl(193, 38%, 86%);
+    outline: none;
+}
+
+.divider {
+    background: url(./images/pattern-divider-mobile.svg);
+    height: 25px;
+    width: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 2rem;
+}
