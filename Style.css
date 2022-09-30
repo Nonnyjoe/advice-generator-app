@@ -72,3 +72,36 @@ hr {
     background-repeat: no-repeat;
     margin: 0px 2rem;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 4rem;
+    }
+    .newQuote {
+        left: 19.9rem
+    }
+    .container {
+        padding: 1rem 2rem 3rem;
+    }
+    .newQuote {
+        margin-left: -3%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        padding: 6rem;
+    }
+    .newQuote {
+        margin-left: 8.5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        padding: 6rem 15rem;
+    }
+    .newQuote {
+        margin-left: 7%;
+    }
+}
