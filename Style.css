@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    padding: .5rem;
+    padding: 1rem;
     background-color: hsl(217, 19%, 38%);
     border-radius: 1rem;
     z-index: 2;
@@ -15,6 +15,7 @@ body {
     margin-top: calc(50vh - 15rem);
     margin-bottom: auto;
     padding-bottom: 3rem;
+    width: 80vw;
 }
 
 .quoteNumber p {
@@ -38,7 +39,8 @@ body {
     border-radius: 50%;
     position: absolute;
     bottom: -25px;
-    left: 152px;
+    left: 0;
+    right: 0;
     outline: none;
     border: none;
 }
@@ -49,7 +51,7 @@ body {
 
 .design {
     display: flex;
-    width: 320px;
+    width: 80vw;
     margin-right: auto;
     margin-left: auto;
     margin-top: 2rem;
@@ -75,16 +77,16 @@ hr {
 
 @media screen and (min-width: 768px) {
     body {
-        padding: 4rem;
-    }
-    .newQuote {
-        left: 19.9rem
+        padding: 2.5rem;
     }
     .container {
         padding: 1rem 2rem 3rem;
     }
-    .newQuote {
-        margin-left: -3%;
+    .design {
+        width: 80vw;
+    }
+    hr {
+        width: 35vw;
     }
 }
 
@@ -92,16 +94,19 @@ hr {
     body {
         padding: 6rem;
     }
-    .newQuote {
-        margin-left: 8.5%;
+    .container {
+        width: 70vw;
+    }
+    .design {
+        width: 70vw;
+    }
+    hr {
+        width: 30vw;
     }
 }
 
 @media screen and (min-width: 1200px) {
     body {
-        padding: 6rem 15rem;
-    }
-    .newQuote {
-        margin-left: 7%;
+        padding: 6rem 9.5rem;
     }
 }
